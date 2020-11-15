@@ -1,0 +1,15 @@
+
+button{
+    padding:20px;
+    background: black;
+    border:2px solid black;
+    color:white;
+    position: absolute;
+    top:35%;
+    left:45%;
+    cursor: pointer;
+}
+
+button:hover{
+    background:black;
+}
