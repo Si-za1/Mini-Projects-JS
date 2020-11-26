@@ -1,0 +1,43 @@
+.loader{
+    height:40px;
+    transform-origin: bottom center;
+    animation: rotate 3s linear ease-in;
+}
+
+.circle{
+    width:40px;
+    height: 40px;
+    background-color: orange;
+    border-radius: 60%;
+    animation :grow 5s linear infinite;
+    transform: scale(0);
+    margin:10px;
+    z-index:2px;
+}
+
+.circle:nth-child(2){
+    background-color: Green;
+    animation: round 7s linear infinite;
+}
+
+.circle:nth-child(3){
+    background-color:rgb(1, 19, 4);
+}
+@keyframes rotate{
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes grow{
+    50%
+    {
+        transform: scale(1);
+    }
+}
+
+@keyframes round{
+    to{
+        transform: rotate(360deg);
+    }
+}
