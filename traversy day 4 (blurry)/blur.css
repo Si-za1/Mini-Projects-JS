@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0;
+    height:100vh;
+}
+h1{
+    font: size 38px;
+    color:whitesmoke;
+    text-align:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bg{
+    background:url('../images/bg1.jpg') no-repeat center center/cover;
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 100vw;
+    height:100vh;
+    z-index: -1px;
+    filter:blur(0px);
+}
+
+.loading-text{
+    font-size: 100px;
+    font-weight: 200;
+    color:rgb(215, 222, 236);
+    position: relative;
+    top:50%;
+    left:49%;
+    
+}
