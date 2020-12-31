@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Courier New', Courier, monospace;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    margin:0;
+    background-color: rebeccapurple;
+}
+
+.btn{
+    margin-right: 14px;
+    border-radius: 12px;
+    background: slateblue;
+    color:black;
+    font-size: 18px;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.btn:focus{
+    outline: 0;
+}
