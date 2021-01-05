@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(58, 130, 150);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: fantasy;
+    padding:20px;
+}
+
+.container{
+    background-color: white;
+    box-shadow: rgba(187, 180, 180, 0.5),
+                rgba(182, 170, 180, 0.5) ;
+    border-radius: 10px;
+    max-width:100%;
+    width:50%;
+    text-align: center;
+    height:50%;
+   
+    
+}
+
+h3{
+    font-size: 22px;
+    font-weight: 100;
+    margin:20px;
+
+}
+
+.joke{
+    font-size:22px;
+    padding:10px;
+    margin:60px auto;
+    color:black;
+}
+
+.btn{
+    padding:20px;
+    margin:5px;
+    font-size:20px;
+    width: 40%;
+    background-color: slateblue;
+    color:white;
+    border-radius:12px;
+    z-index:2px;
+    cursor: pointer;
+}
+
+.btn:active{
+    transform:translate(0.98);
+}
+
+.btn:focus{
+    outline:0;
+}
